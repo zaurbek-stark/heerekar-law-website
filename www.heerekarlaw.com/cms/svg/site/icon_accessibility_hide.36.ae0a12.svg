@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+<style>
+	g path { stroke: none; }
+</style>
+<g class="root" id="accessibility_hide" data-name="accessibility-hide" fill="#ae0a12" stroke="#ae0a12">
+	<path d="M36 3.281L32.729 0.009L18.001 14.729L3.272 0.009L0 3.281L14.728 17.999L0 32.719L3.272 35.991L18.001 21.271L32.729 35.991L36 32.719L21.273 17.999L36 3.281Z" />
+</g>
+</svg>

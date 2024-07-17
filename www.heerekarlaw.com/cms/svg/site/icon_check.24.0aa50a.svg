@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<style>
+	g path { stroke: none; }
+</style>
+<g class="root" id="check" data-name="check" fill="#0aa50a" stroke="#0aa50a">
+	<path d="M23.333 7.257l-12.778 12.778a2.291 2.291 0 0 1-3.208 0l-6.476-6.416a2.324 2.324 0 1 1 3.267-3.267l4.811 4.815l11.171-11.171a2.324 2.324 0 0 1 3.267 0a2.394 2.394 0 0 1-0.063 3.267h0" />
+</g>
+</svg>
