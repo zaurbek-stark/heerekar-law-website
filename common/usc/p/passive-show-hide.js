@@ -121,7 +121,7 @@ require2( ['usc/p/usc-utils', 'usc/p/slide-toggle'], function () {
 			}
 
 			// Load the video script.
-			require2( '/common/usc/p/video.js' );
+			require2( 'common/usc/p/video.js' );
 
 			// As soon as it's loaded we'll resolve the promiser.
 			let _interval = 0;

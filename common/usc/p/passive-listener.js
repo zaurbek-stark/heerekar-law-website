@@ -6,7 +6,7 @@ window.USC.listenUp = function (e) {
     // Make sure our target is a Show/Hide element
     if (e.target.closest('[data-role="btn"]')) {
         if (!window.USC.showHide) {
-            require2('/common/usc/p/passive-show-hide.js', function () {
+            require2('common/usc/p/passive-show-hide.js', function () {
                 window.USC.showHide(e);
             });
         } else {
@@ -36,7 +36,7 @@ window.USC.listenUp = function (e) {
     var par = elTab && elTab.parentNode.closest('.el-tab-box');
     if (elTab) {
         if (!window.USC.tabbableHandler) {
-            require2('/common/usc/p/passive-tabbable-init.js', function () {
+            require2('common/usc/p/passive-tabbable-init.js', function () {
                 USC.tabbable( (elTab && par) ? par : elTab );
                 USC.tabbableHandler(e, elTab);
             });

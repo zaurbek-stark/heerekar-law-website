@@ -41,7 +41,7 @@ async function cloudflare( cloud ) {
 
 	console.log( 'cloudflare() - ' + cloud.length );
 	if ( !window.Hls ) {
-		await import( `/common/usc/p/hls.min.js` );
+		await import( `common/usc/p/hls.min.js` );
 		if ( !window.Hls ) {
 			throw new Error( "Unable to load HLS script" );
 		}
