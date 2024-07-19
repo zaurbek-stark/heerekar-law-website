@@ -1,7 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-www.heerekarlaw.com	TRUE	/	FALSE	1999999999	SEOT	#1
-www.heerekarlaw.com	TRUE	/	FALSE	1999999999	T	!!
-www.heerekarlaw.com	TRUE	/	FALSE	1999999999	SEOV	#24
-www.heerekarlaw.com	TRUE	/	FALSE	1999999999	TS01dc6f8b	0184cfe7a6617ed72014fc944851acec597dcd1472185f5542bd94d1b95469613ed4a8e400171390798ba1df38afd100136af3e6cbd9132069360e9fc0a2943784e7509db8c2a4553216f96d05199b545255dd78de5bef000d3da37fd2a0578e2a17ddbb21
-
