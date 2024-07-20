@@ -1484,7 +1484,7 @@
             throw new Error("Cannot load scripts over unsecure channel: " + n);
           else
             n.indexOf("https://www.heerekarlaw.com/common/") === 0 ||
-            n.indexOf("..//") === 0
+            n.indexOf("/") === 0
               ? w(n)
               : p(n);
         }
@@ -1540,10 +1540,10 @@
                     : t.indexOf("admin/") === 0
                     ? (i["common/" + t + ".js"] = 1)
                     : t.indexOf("usc/") === 0
-                    ? (i["../../common/" + t + ".js"] = 1)
+                    ? (i["../common/" + t + ".js"] = 1)
                     : t.indexOf("cms/") === 0
                     ? (i["/" + t + ".js"] = 1)
-                    : (i["../../" + t] = 1);
+                    : (i["../" + t] = 1);
           return Object.keys(i);
         }
         function h(n) {
