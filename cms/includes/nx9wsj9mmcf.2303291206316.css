@@ -4599,11 +4599,6 @@ html.high-contrast .dk-bg.acc-opt.v1 li button:not(:hover),
 html.high-contrast .dk-bg.acc-opt.v1 li button:not(:focus) {
   color: #ffffff;
 }
-html.high-contrast .bg-wrp,
-html.high-contrast .img-bg,
-html.high-contrast .img-bg img {
-  display: none !important;
-}
 html.x1 *,
 html.x2 * {
   word-break: break-word !important;
