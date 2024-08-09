@@ -667,6 +667,51 @@
       }
     </style>
     <style type="text/css">
+      .social-proof {
+        display: flex;
+        align-items: center;
+        padding: 20px 7px;
+        border-radius: 10px;
+        margin: 0 auto;
+        font-family: Arial, sans-serif;
+        color: #333;
+      }
+      .reviewers {
+        display: flex;
+        margin-right: 15px;
+      }
+      .reviewer {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-left: -10px;
+        border: 2px solid #fff;
+      }
+      .reviewer img {
+        width: 100%;
+        height: auto;
+      }
+      .stars {
+        display: flex;
+        align-items: center;
+      }
+      .star {
+        color: gold;
+        font-size: 1.3rem;
+      }
+      .stars-wrapper {
+        display: flex;
+        align-items: center;
+      }
+      .review-count {
+        margin-left: 10px;
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+      .clients-helped {
+        margin-top: -10px;
+      }
       .overlap #HeaderZone {
         position: absolute;
         width: 100%;
@@ -2279,11 +2324,11 @@
         <div class="mn_wd flx-ato-rsp">
           <div class="inf anm_seq-itm rsp_pd">
             <em class="fnt_t-k fnt_tc-k blk ts mrg_bt-30">
-              Legal Immigration Services in Los Angeles
+              Expert Immigration Services in Los Angeles
             </em>
 
             <strong class="fnt_t-big fnt_tc-big lrg blk ts mrg_bt-20">
-              We Help to Solve Your Legal Issues
+              Achieve Your U.S. Immigration Goals
             </strong>
             <svg
               viewBox="0 0 24 24"
@@ -2297,35 +2342,25 @@
               ></path>
             </svg>
             <p>
-              Heerekar Law Firm is a national immigration law firm that
-              specializes in helping individuals and families navigate the
-              complex and ever changing immigration laws so that they may
-              achieve legitimate status in the United States.
+              At Heerekar Law Firm, we specialize in guiding individuals and
+              families through the complexities of U.S. immigration law. Let us
+              help you achieve your American dream with expert legal support.
             </p>
 
             <div class="btn-bx mrg_tp-20">
               <ul class="flx-blk-500-grd-sml cls-gp-500 f_m">
                 <li class="fit">
-                  <a class="btn v1" href="about-us/">
-                    About Us
-                    <svg
-                      viewBox="0 0 24 24"
-                      data-use="cms/svg/site/zr4cl296wmv.24.2405141403088.svg#btn_icon"
-                    >
-                      <path
-                        d="M23.827 11.596L18.648 6.568a0.595 0.595 0 0 0-0.417-0.168h0A0.591 0.591 12 0 0 17.686 6.753a0.56 0.56 0 0 0 0.128 0.624l4.174 4.051h-21.399a0.58 0.58 0 0 0-0.589 0.572a0.58 0.58 0 0 0 0.589 0.572h21.399L17.814 16.623a0.56 0.56 0 0 0 0 0.809a0.602 0.602 0 0 0 0.834 0l5.18-5.028A0.56 0.56 12 0 0 23.827 11.596Z"
-                      ></path>
-                    </svg>
-                  </a>
-                </li>
-
-                <li class="fit">
                   <!-- Calendly link widget begin -->
                   <a
-                    class="btn v2"
+                    class="btn v1"
                     href=""
+                    style="
+                      padding: 20px;
+                      text-transform: uppercase;
+                      font-weight: 600;
+                    "
                     onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hari-heerekarlaw/30min'});return false;"
-                    >Free Consultation
+                    >Schedule Your Free Consultation
                     <svg
                       viewBox="0 0 24 24"
                       data-use="cms/svg/site/zr4cl296wmv.24.2405141403088.svg#btn_icon"
@@ -2338,6 +2373,37 @@
                   <!-- Calendly link widget end -->
                 </li>
               </ul>
+            </div>
+            <div class="social-proof">
+              <div class="reviewers">
+                <div class="reviewer">
+                  <img src="assets/images/review1.png" alt="Reviewer 1" />
+                </div>
+                <div class="reviewer">
+                  <img src="assets/images/review2.png" alt="Reviewer 2" />
+                </div>
+                <div class="reviewer">
+                  <img src="assets/images/review3.png" alt="Reviewer 3" />
+                </div>
+                <div class="reviewer">
+                  <img src="assets/images/review4.png" alt="Reviewer 4" />
+                </div>
+              </div>
+              <div>
+                <div class="stars-wrapper">
+                  <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                  </div>
+                  <div class="review-count">4.5/5</div>
+                </div>
+                <div class="clients-helped">
+                  <span>Over 2,000+ clients helped</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
